@@ -1,0 +1,89 @@
+.container{
+    padding: 5px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar ul {
+    list-style: none;
+}
+.navbar ul li a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.navbar ul li .user{
+    /* border: 1px solid green; */
+    padding: 5px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+.logo{
+    text-align: center;
+}
+.look{
+    width: 550px;
+    height: 40px;
+    border-radius: 50px;
+    padding-left: 20px;
+    outline: none;
+    border: 1px solid aliceblue;
+}
+.look:hover{
+    box-shadow: 0 2px 10px -7px #000;
+
+}
+
+.search{
+    text-align: center;
+    margin: 20px;
+}
+
+.buttons{
+    margin: 20px;
+    border: none;
+}
+input[type="text"]{
+    border: none;
+}
+input[type="button"]{
+    border: none;
+    padding: 8px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #ede8e8;
+}
+input[type="button"]:hover{
+    box-shadow: 0 0 2px #000;
+    cursor: pointer;
+}
+.stuff{
+    display: flex;
+    justify-content: center;
+}
+.stuff ul{
+    display: flex;
+    list-style: none;
+}
+.stuff ul li{
+    margin-right: 10px;
+}
+.stuff ul li a{
+    text-decoration: none;
+}
+.stuff ul li a:hover{
+    border-bottom: 1px solid blueviolet;
+}
+.navbar ul li a:hover{
+    border-bottom: 1px solid black;
+}
+.navbar ul li .user{
+    box-shadow: 0 0 2px #000;
+}
+.stuff p{
+    margin-right: -30px;
+}
